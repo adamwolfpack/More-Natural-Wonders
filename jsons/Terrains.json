@@ -44,7 +44,7 @@
 	{
 		"name": "El Dorado",
 		"type": "TerrainFeature",
-		"culture": 35,
+		"culture": 40,
 		"overrideStats": true,
 		"occursOn": ["Plains"],
 		"turnsInto": "Plains",
@@ -52,7 +52,8 @@
 		"unbuildable": true,
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [1] to [6] [Jungle] tiles",
-			"Grants 500 Gold to the first civilization to discover it",
+			"Grants 5000 Gold to the first civilization to discover it",
+			"Tile provides yield without assigned population",
 			"Rare feature",
 			"Rare feature","Never receives any resources", "Natural Wonder"],
 		"weight": 2
@@ -119,7 +120,7 @@
 	{
 		"name": "Krakatoa",
 		"type": "NaturalWonder",
-		"science": 35,
+		"science": 40,
 		"occursOn": ["Ocean"],
 		"uniques": ["Must be adjacent to [1] to [6] [Coast] tiles",
 			"Must be adjacent to [0] [Ice] tiles",
@@ -197,7 +198,7 @@
 	{
 		"name": "Mount Sinai",
 		"type": "TerrainFeature",
-		"faith": 25,
+		"faith": 30,
 		"occursOn": ["Desert","Plains"],
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Grassland] tiles",
@@ -285,6 +286,7 @@
 		"uniques": ["Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [2] to [6] [Hill] tiles",
 			"Must be adjacent to [0] to [2] [Mountain] tiles",
+			"Tile provides yield without assigned population",
 			"Grants [Altitude Training] ([double movement and +10% Strength in hills]) to adjacent [Land] units for the rest of the game"],
 		"weight": 10
 	}
